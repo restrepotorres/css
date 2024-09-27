@@ -1,5 +1,8 @@
 table {
   border-collapse: collapse;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 13px;
 }
 table,
 th,
@@ -8,8 +11,9 @@ td {
 }
 th,
 td {
-  padding: 8px;
-  text-align: left;
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
 }
 th {
   background-color: #fdda24;
@@ -17,10 +21,7 @@ th {
   text-align: center;
   font-size: 14px;
 }
-table {
-  width: 90%;
-  margin: 0 auto;
-}
+
 body {
   width: 600px;
   margin: 0 auto;
@@ -42,9 +43,7 @@ header {
 }
 #asunto {
   height: 140px;
-  display: flex;
-  align-items: flex-end;
-  padding: 3%;
+  padding: 4%;
 }
 #imgfirma {
   width: 178px;
